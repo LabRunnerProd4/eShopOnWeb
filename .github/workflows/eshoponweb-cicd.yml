@@ -90,5 +90,6 @@ jobs:
         uses: actions/upload-artifact@v5
         with:
           name: bicep-template
-        path: ${{env.TEMPLATE-FILE}}
+          path: ${{env.TEMPLATE-FILE}}
         
+    
